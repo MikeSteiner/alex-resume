@@ -1,0 +1,19 @@
+{% assign skills = site.data.skills.items %}
+
+<div class="section-head mb-4">
+    <h3 class="bottom-border">Skills</h3>
+</div>
+
+{% if skills %}
+<div class="d-flex flex-wrap justify-content-start">
+    {% for skill in skills %}
+        <div class="mx-1">
+            <h4>{{ skill.name }}</h4>
+            {% for item in skill.list %}
+                <span class="mx-1">{{ item }}</span>
+            {% endfor %}
+
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
