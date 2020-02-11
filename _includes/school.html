@@ -1,0 +1,19 @@
+<div class="card border-secondary mb-3 school-wrapper">
+        <div class="card-header">{{ include.header }}</div>
+        <div class="card-body text-secondary">
+            <h5 class="card-title">{{ include.title }}</h5>
+            <p class="card-text">
+            <div>{{ include.period }}</div>
+            <div>{{ include.location }}</div>
+            </p>
+            <p class="card-text">{{ include.text }}</p>
+            <p class="card-text">
+            <ul>
+                {% for field in include.fieldOfStudy %}
+                <li>{{ field }}</li>
+                {% endfor %}
+            </ul>
+            </p>
+        </div>
+
+</div>
