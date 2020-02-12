@@ -7,14 +7,16 @@
 {% if schools %}
 <div class="d-flex flex-wrap justify-content-start">
     {% for school in schools %}
-        <div class="mx-1">
+        <div class="mx-1 school-card">
             {% assign period = school.year.start | append: "-" | append:school.year.end %}
-            {% assign header = school.degree | append: " in " | append:school.specialty %}
+            {% assign degreeAndSpecialty = school.degree | append: " in " | append:school.specialty %}
             {% assign location = school.location.city | append: ", " | append:school.location.country %}
 
             {% include school.html
-                header=header
+                image=school.image
                 title=school.name
+                text=school.description
+                specialty=degreeAndSpecialty
                 location=location
                 period=period
                 fieldOfStudy=school.fieldOfStudy

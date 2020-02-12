@@ -30,7 +30,10 @@
         "end": 2017
       },
       "website": "https://www.telerikacademy.com/",
-      "icon": "https://webassets.telerikacademy.com/images/default-source/logos/ta_logo_10yr.svg"
+      "image": {
+        "src": "/assets/images/schools/telerik-academy-10yr.svg",
+        "alt": "TA_Logo_10yr"
+      }
     },
     {
       "name": "Software University",
@@ -50,7 +53,10 @@
         "end": 2016
       },
       "website": "https://softuni.bg",
-      "icon": "https://softuni.bg/content/images/svg-logos/software-university-logo.svg"
+      "image": {
+        "src": "https://softuni.bg/content/images/svg-logos/software-university-logo.svg",
+        "alt": ""
+      }
     },
 
     {
@@ -70,7 +76,10 @@
         "end": 2009
       },
       "website": "https://softuni.bg",
-      "icon": "https://softuni.bg/content/images/svg-logos/software-university-logo.svg"
+      "image": {
+        "src": "/assets/images/schools/technical-university-sofia.svg",
+        "alt": "TU-Sofia logo"
+      }
     },
     {
       "name": "Technical University Sofia",
@@ -93,7 +102,10 @@
         "end": 2004
       },
       "website": "",
-      "icon": ""
+      "image": {
+        "src": "/assets/images/schools/technical-university-sofia.svg",
+        "alt": "TU-Sofia logo"
+      }
     },
     {
       "name": "91 GERMAN HIGH SCHOOL – Prof Konstantin Galabov",
@@ -110,7 +122,10 @@
         "end": 1999
       },
       "website": "",
-      "icon": ""
+      "image": {
+        "src": "/assets/images/schools/neg91-logo.png",
+        "alt": ""
+      }
     }
   ]
 }
