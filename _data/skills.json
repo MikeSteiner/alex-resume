@@ -3,14 +3,14 @@
     {
       "name": "Software Development Frontend",
       "list": [
-        "HTML",
-        "CSS",
-        "Sass",
-        "javascript",
-        "typescript",
-        "Angular 2 to 8",
-        "ngrx/redux pattern for Angular",
-        "Angular Material"
+        "● HTML",
+        "● CSS",
+        "● Sass",
+        "● javascript",
+        "● Typescript",
+        "● Angular 2 to 8",
+        "● ngrx/redux pattern",
+        "● Angular Material"
       ]
     },
     {
@@ -24,14 +24,14 @@
     {
       "name": "Software Development General",
       "list": [
-        "Object-Oriented Programming",
-        "Clean code",
-        "DI",
-        "Unit tests",
-        "Automation UI test",
-        "Continuous delivery/deployment",
-        "Git/ Jira/ Jenkins",
-        "Windows/MAC OS"
+        "● Object-Oriented Programming",
+        "● Clean code",
+        "● DI",
+        "● Unit tests",
+        "● Automation UI test",
+        "● Continuous delivery/deployment",
+        "● Git/ Jira/ Jenkins",
+        "● Windows/MAC OS"
       ]
     },
     {

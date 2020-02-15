@@ -48,15 +48,46 @@
         color: #1b242f;
         font-size: 1.2em;
         font-weight: 600;
+        padding-top: 1rem;
       }
     }
     &-title {
 
     }
     &-body {
+      max-height: 7rem;
+      overflow-y: hidden;
+
       p {
         color: #777;
-        line-height: 1.9rem;
+        line-height: 1.7rem;
+
+        &:after {
+          opacity: 1;
+          content: "";
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          position: absolute;
+          transition: opacity 200ms ease-in;
+          background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+          pointer-events: none;
+        }
+      }
+
+      .read-more {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+
+        /* "transparent" only works here because == rgba(0,0,0,0) */
+        background-image: linear-gradient(to bottom, transparent, #ffffff);
       }
     }
 

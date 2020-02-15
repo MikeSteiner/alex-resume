@@ -2,7 +2,7 @@
   "items": [
     {
       "company": {
-        "name": "Blubito AG",
+        "name": "Kaufland Service",
         "department": "",
         "location": {
           "country": "Bulgaria",
@@ -13,12 +13,12 @@
         "website": ""
       },
       "job": {
-        "title": "Software Developer - Angular 2,4",
-        "description": "Applications developed by our department are based on the REST architecture. Database management system is MSSQL and the backend business logic is developed using Java. Data exchange between the front-end and backend logical parts is based on RESTful web services using JSON format. Angular 2+ is used as a front-end main application framework.\n\nAll the currently ongoing projects are flowing the Agile software development methodologies in particular using SCRUM. Software tool involved is JIRA.  \n\nContinuous integration is a part of all the ongoing projects supported mainly by Jenkins automation server.\n\nMy general task during the last moths is developing features in the front-end part of applications using Angular 2+ and RESTful web services in JSON format.\n\nweb: http://blubito.com",
+        "title": "Frontend Angular Developer",
+        "description": "Participating in the development of new company product",
         "responsibilities": "",
         "date": {
-          "start": "06.2017",
-          "end": "03.2018"
+          "start": "10.2019",
+          "end": "present"
         }
       }
     },
@@ -39,7 +39,7 @@
         "title": "Frontend Software Developer",
         "description": "Member of an Agile/SCRUM team, developing in-house web applications\nwith Angular 2+ (Angular 5, 6, 7, 8). Using Angular Material as main UI\nlibrary.\nWriting unit tests with Jasmine and Karma, and creating the UI tests with\nSelenium.\nBack-end is based on Java Spring Boot.\nFor the continuous integration and delivery process we use Docker,\nJenkins, as well other online tools and technologies.",
         "responsibilities": [
-          "Working on First internal company project almost from its beginning,\nfor more than one year including first release",
+          "Working on First internal company project almost from its beginning, for more than one year including first release.",
           "Second internal company project for couple of months."
         ],
         "date": {
