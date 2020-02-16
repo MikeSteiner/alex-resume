@@ -6,22 +6,6 @@
 
 {% if experienceList %}
     {% for experience in experienceList %}
-<!--        <div class="name">-->
-<!--            <h3>{{experience.job.title}}</h3>-->
-<!--            <div class="">-->
-<!--                <span>{{experience.company.name}}</span>-->
-<!--            </div>-->
-<!--            <div class="">-->
-<!--                <span>{{experience.company.location.city}}</span>-->
-<!--            </div>-->
-<!--            <div class="">-->
-<!--                <span>{{experience.job.date.start}}</span>-->
-<!--            </div>-->
-<!--            <div class="">-->
-<!--                <span>{{experience.job.date.end}}</span>-->
-<!--            </div>-->
-<!--        </div>-->
-
         {% assign period = experience.job.date.start | append: " - " | append:experience.job.date.end %}
         <div class="row mb-4 d-flex flex-row justify-content-start timeline-right-cards">
 
