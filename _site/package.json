@@ -1,0 +1,13 @@
+{
+  "name": "jekyll-alex-resume",
+  "version": "1.0.0",
+  "description": "Alexander website resume",
+  "main": "index.js",
+  "repository": "git@github.com:mikesteiner/alex-resume.git",
+  "author": "Alexander Toplijski <alex@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0"
+  }
+}
