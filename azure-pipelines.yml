@@ -3,15 +3,24 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-resources:
-  - repo: self
-queue:
-  name: Hosted Ubuntu 1604
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
 steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+    displayName: 'npm install'
 
   - task: UseRubyVersion@0
     displayName: 'Use Ruby >= 2.4'
-
 
   - script: 'gem install bundler'
     displayName: 'Install bundler'
