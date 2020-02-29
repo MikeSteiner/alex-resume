@@ -6,6 +6,9 @@
   "repository": "git@github.com:mikesteiner/alex-resume.git",
   "author": "Alexander Toplijski <alex@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "deploy": "jekyll build && git subtree push --prefix _site origin gh-pages"
+  },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0"
