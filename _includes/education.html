@@ -7,18 +7,21 @@
 {% if schools %}
 <div class="d-flex flex-column justify-content-start">
     {% for school in schools %}
-        <div class="mx-1 school-card">
-            {% assign degreeAndSpecialty = school.degree | append: " in " | append:school.specialty %}
-            {% assign period = school.year.start | append: "-" | append:school.year.end %}
-            {% assign location = school.location.city | append: ", " | append:school.location.country %}
+        <div class="mx-1 education-list-container">
+            <div class="school-card">
+                {% assign degreeAndSpecialty = school.degree | append: " in " | append:school.specialty %}
+                {% assign period = school.year.start | append: "-" | append:school.year.end %}
+                {% assign location = school.location.city | append: ", " | append:school.location.country %}
 
-            {% include _cards/school-card.html
+                {% include _cards/school-card.html
                 schoolName = school.name
                 degreeAndSpecialty = degreeAndSpecialty
                 period = period
                 location = location
-            %}
-            <hr style="border-top: 1px dashed darkgray;" />
+                %}
+            </div>
+
+            <hr>
         </div>
     {% endfor %}
 </div>

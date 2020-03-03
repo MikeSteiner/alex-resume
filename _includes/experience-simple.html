@@ -6,6 +6,7 @@
 
 {% if experienceList %}
     {% for experience in experienceList %}
+    <div class="experience-list-container">
         {% assign period = experience.job.date.start | append: " - " | append:experience.job.date.end %}
         {% assign location = experience.company.location.city | append: ", " | append:experience.company.location.country %}
         {% include _cards/_card-work-experience.html
@@ -16,7 +17,9 @@
             description = experience.job.description
             responsibilities = experience.job.responsibilities
         %}
-        <hr style="border-top: 1px dashed darkgray;" />
+        <hr>
+    </div>
+
 
     <!--        <div class="row mb-4 d-flex flex-row justify-content-start timeline-right-cards">-->
 
