@@ -26,8 +26,14 @@
       font-family: 'Asap', sans-serif;
     }
   }
+  .underline-green {
+    border-bottom: 3px solid #00a78e;
+    display: inline-block;
+  }
   .bottom-border {
-    width: 33%;
+    display: block;
+    min-width: 33%;
+    width: 44%;
     border-bottom: 3px solid #00a78e;
     //&:before {
     //  content: " ";
