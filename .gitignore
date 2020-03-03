@@ -5,4 +5,5 @@
 vendor
 _site
 node_modules
+_includes/_examples
 
