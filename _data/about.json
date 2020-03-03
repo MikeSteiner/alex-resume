@@ -1,8 +1,17 @@
 {
-  "firstName": "Alexander",
-  "lastName": "Toplijski",
-  "jobRole": "Software Developer / Angular 2+ at B.Braun  Medical EOOD",
+  "name": {
+    "first": "Alexander",
+    "last": "Toplijski"
+  },
+  "job": {
+    "role": "Frontend Angular Developer at Kaufland Service"
+  },
   "phone": "+359 (0)893 655 921",
   "email": "alex.toplijski@gmail.com",
-  "address": "Sofia, Bulgaria, Banishora, 1233"
+  "location": {
+    "country": "Bulgaria",
+    "city":  "Sofia",
+    "address": "Banishora",
+    "postCode": "1233"
+  }
 }

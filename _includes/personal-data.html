@@ -5,11 +5,19 @@
 </div>
 
 {% if personalData %}
+{% assign fullName = personalData.name.first | append: " " | append:personalData.name.last %}
+{% assign address = personalData.location.city
+| append: ", "
+| append:personalData.location.country
+| append: ", "
+| append:personalData.location.address
+| append: ", "
+| append:personalData.location.postCode %}
 <section class="d-flex justify-content-between personal-data">
     <div>
         <div>
-            <h1>{{personalData.firstName}} {{personalData.lastName}}</h1>
-            <h4>Software Developer / Angular 2+ at B.Braun Medical</h4>
+            <h1>{{ fullName }}</h1>
+            <h4>{{ personalData.jobRole }}</h4>
         </div>
         <div class="row">
             <div class="col">
@@ -19,12 +27,12 @@
                 </div>
                 <div>
                     <i class="fa fa-address-book"></i>
-                    <span>{{personalData.email}}</span>
+                    <span>{{ personalData.email }}</span>
                 </div></div>
             <div class="col">
                 <div>
                     <i class="fa fa-location-arrow"></i>
-                    <span>{{ personalData.address }}</span>
+                    <span>{{ address }}</span>
                 </div>
                 <div>
                     <i class="fa fa-linkedin"></i>
