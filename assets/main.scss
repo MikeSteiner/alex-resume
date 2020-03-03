@@ -9,6 +9,7 @@
 @import 'skills';
 @import 'school-card';
 @import 'work-experiance-card';
+@import 'achievement-card';
 
 @import 'timeline-right-cards';
 @import 'timeline';
@@ -61,6 +62,42 @@
     max-height: 25rem;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+.education-list-container {
+  hr {
+    border-top: 1px dashed darkgray;
+  }
+  &:last-child hr {
+    display: none;
+  }
+}
+
+.experience-list-container {
+  hr {
+    border-top: 1px dashed darkgray;
+  }
+  &:last-child hr {
+    display: none;
+  }
+}
+
+.project-list-container {
+  hr {
+    border-top: 1px dashed darkgray;
+  }
+  &:last-child hr {
+    display: none;
+  }
+}
+
+.achievement-list-container {
+  hr {
+    border-top: 1px dashed darkgray;
+  }
+  &:last-child hr {
+    display: none;
+  }
 }
 
 
