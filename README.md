@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sem quis velit 
 [@twiter](http://twitter.com/).
 
 ## License
-- The Alex Resume is licensed under xxx:
+- The MyOnlineResume is licensed under xxx:
   - http://xxx.org/
 
 ## Author
