@@ -8,13 +8,13 @@
     {% for experience in experienceList %}
         {% assign period = experience.job.date.start | append: " - " | append:experience.job.date.end %}
         {% assign location = experience.company.location.city | append: ", " | append:experience.company.location.country %}
-        {% include _cards/work-experiance-card.html
-            jobTitle = experience.job.title
-            companyName = experience.company.name
+        {% include _cards/_card-work-experience.html
+            title = experience.job.title
+            subTitle = experience.company.name
             period = period
             location = location
-            jobDescription = experience.job.description
-            jobResponsibilities = experience.job.responsibilities
+            description = experience.job.description
+            responsibilities = experience.job.responsibilities
         %}
         <hr style="border-top: 1px dashed darkgray;" />
 
