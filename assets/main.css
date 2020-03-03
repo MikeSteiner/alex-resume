@@ -4669,6 +4669,10 @@ section.personal-data h4 { color: #1b242f; font-size: 1.2em; font-weight: 600; }
 
 .work-experience-card h5 { color: #00a78e; font-weight: 600; }
 
+.achievement-card h4 { color: #1b242f; }
+
+.achievement-card h4 i { color: #00a78e; }
+
 .timeline-right-cards .timeline-period { width: 100%; text-align: center; font-size: 1.5rem; color: #fff; background: #1b242f; padding: 11px 0; }
 
 .timeline-right-cards .timeline-badge { color: #fff; width: 3rem; min-width: 3rem; height: 3rem; font-size: 1.5rem; margin-top: 0.5rem; }
@@ -4804,5 +4808,21 @@ section #timeline article:nth-child(5) div.inner h2:after { background: #9b59b6;
 .section-head .bottom-border { display: block; min-width: 33%; width: 44%; border-bottom: 3px solid #00a78e; }
 
 .school-wrapper { width: 18rem; max-width: 18rem; height: 100%; max-height: 25rem; overflow-x: hidden; overflow-y: auto; }
+
+.education-list-container hr { border-top: 1px dashed darkgray; }
+
+.education-list-container:last-child hr { display: none; }
+
+.experience-list-container hr { border-top: 1px dashed darkgray; }
+
+.experience-list-container:last-child hr { display: none; }
+
+.project-list-container hr { border-top: 1px dashed darkgray; }
+
+.project-list-container:last-child hr { display: none; }
+
+.achievement-list-container hr { border-top: 1px dashed darkgray; }
+
+.achievement-list-container:last-child hr { display: none; }
 
 /*# sourceMappingURL=main.css.map */
